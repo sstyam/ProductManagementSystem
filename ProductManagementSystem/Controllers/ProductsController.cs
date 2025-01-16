@@ -20,7 +20,7 @@ namespace ProductManagementSystem.Controllers
 
         [HttpGet]
 
-        //We will make a method that will return the static list of employees
+        //We will make a method that will return the static list of Products
         public IActionResult GetAllProducts()
         {
           var allProducts =  dbContext.Products.ToList();
